@@ -12,3 +12,4 @@ mv kubectl /usr/bin/
 mkdir /home/ec2-user/.kube
 cp /etc/kubernetes/admin.conf /home/ec2-user/.kube/config
 chown ec2-user: /home/ec2-user/.kube/config
+kubectl apply -f https://raw.githubusercontent.com/bekdemo/k8s-deployment/master/demo.yaml
